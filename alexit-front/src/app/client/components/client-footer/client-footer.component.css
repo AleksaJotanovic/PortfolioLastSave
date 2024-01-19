@@ -1,0 +1,26 @@
+footer {
+    border: 1px solid red;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+footer>div:nth-child(1) {
+    width: 100%;
+    display: flex;
+}
+
+footer>div:nth-child(1)>div {
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+}
+
+footer>div:nth-child(3) {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}

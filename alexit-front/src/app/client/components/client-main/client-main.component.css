@@ -1,0 +1,82 @@
+.animated {
+    border: 2px solid rgb(44, 44, 185);
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.animated>div:last-child {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.banner {
+    border: 2px solid rgb(197, 55, 55);
+    height: 85vh;
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+}
+
+.banner>div {
+    border: 2px solid;
+}
+
+.discounts {
+    border: 2px solid rgb(216, 247, 80);
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popular {
+    border: 2px solid rgb(77, 161, 77);
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recommendation {
+    border: 2px solid rgb(34, 155, 255);
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.configurator-link {
+    border: 2px solid rgb(155, 63, 192);
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.latest-blogs {
+    border: 2px solid rgb(138, 53, 53);
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about {
+    border: 2px solid rgb(80, 222, 247);
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mailing-list {
+    border: 2px solid rgb(247, 80, 211);
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
